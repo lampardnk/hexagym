@@ -1,0 +1,36 @@
+{
+  "id": "a58a46f6",
+  "name": "Simple Op-Amp Inverting Amplifier",
+  "created_at": "2025-05-26T02:39:52.731255",
+  "tags": [
+    {
+      "type": "level",
+      "value": "A-Level"
+    },
+    {
+      "type": "topic",
+      "value": "Physics"
+    },
+    {
+      "type": "type",
+      "value": "Short Answer"
+    }
+  ],
+  "points": 7,
+  "hints": [
+    {
+      "text": "For inverting amplifier, gain = -Rf/Rin",
+      "points_deduction": 2
+    },
+    {
+      "text": "Remember the negative sign in the gain formula",
+      "points_deduction": 1
+    }
+  ],
+  "answer": "test",
+  "content": "\nAnalyze the inverting amplifier circuit:\n\n\\begin{circuitikz}\n\\draw\n  (0,0) node[op amp] (opamp) {}\n  (opamp.-) to[R, l=$10\\text{k}\\Omega$] ++(-2,0) node[left] {$V_{in}$}\n  (opamp.-) to[R, l=$20\\text{k}\\Omega$] (opamp.out)\n  (opamp.+) -- ++(0,-1) node[ground] {};\n\\end{circuitikz}\n\nIf $V_{in} = 2V$:\na) What is the gain of the amplifier?\nb) What is the output voltage $V_{out}$?\n",
+  "files": {
+    "tex": "questions\\simple_op-amp_inverting_amplifier_a58a46f6\\question.tex",
+    "pdf": "questions\\simple_op-amp_inverting_amplifier_a58a46f6\\question.pdf"
+  }
+}

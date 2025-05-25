@@ -1,0 +1,30 @@
+\documentclass[12pt]{article}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{geometry}
+\usepackage{pgfplots}
+\usepackage{color}
+\usepackage{xcolor}
+
+\geometry{a4paper, margin=1in}
+\pgfplotsset{compat=1.18}
+
+\begin{document}
+
+Consider the following vectors:
+
+\begin{tikzpicture}
+\draw[->] (0,0) -- (2,0) node[right] {$\vec{a} = 2\hat{i}$};
+\draw[->] (0,0) -- (0,2) node[above] {$\vec{b} = 2\hat{j}$};
+\draw[dashed] (2,0) -- (2,2) -- (0,2);
+\end{tikzpicture}
+
+Find:
+a) The magnitude of $\vec{a} + \vec{b}$
+b) The angle between $\vec{a}$ and $\vec{a} + \vec{b}$
+
+\end{document}

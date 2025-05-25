@@ -1,0 +1,36 @@
+{
+  "id": "1217ee70",
+  "name": "Basic Logic Gate Circuit",
+  "created_at": "2025-05-26T02:39:56.520346",
+  "tags": [
+    {
+      "type": "level",
+      "value": "IBDP"
+    },
+    {
+      "type": "topic",
+      "value": "Computer Science"
+    },
+    {
+      "type": "type",
+      "value": "Short Answer"
+    }
+  ],
+  "points": 5,
+  "hints": [
+    {
+      "text": "First find the output of the NOT gate for each input B",
+      "points_deduction": 1
+    },
+    {
+      "text": "Then combine with input A using AND gate",
+      "points_deduction": 2
+    }
+  ],
+  "answer": "test",
+  "content": "\nConsider the logic circuit below:\n\n\\begin{circuitikz}\n\\draw\n  (0,2) node[and port] (and1) {}\n  (0,0) node[not port] (not1) {}\n  (and1.in 1) node[left] {A}\n  (not1.in) node[left] {B}\n  (not1.out) -- (and1.in 2)\n  (and1.out) node[right] {Y};\n\\end{circuitikz}\n\nComplete the truth table for inputs A and B, and output Y.\n",
+  "files": {
+    "tex": "questions\\basic_logic_gate_circuit_1217ee70\\question.tex",
+    "pdf": "questions\\basic_logic_gate_circuit_1217ee70\\question.pdf"
+  }
+}

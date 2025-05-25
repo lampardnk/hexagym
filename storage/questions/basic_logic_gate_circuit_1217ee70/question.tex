@@ -1,0 +1,32 @@
+\documentclass[12pt]{article}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{geometry}
+\usepackage{pgfplots}
+\usepackage{color}
+\usepackage{xcolor}
+
+\geometry{a4paper, margin=1in}
+\pgfplotsset{compat=1.18}
+
+\begin{document}
+
+Consider the logic circuit below:
+
+\begin{circuitikz}
+\draw
+  (0,2) node[and port] (and1) {}
+  (0,0) node[not port] (not1) {}
+  (and1.in 1) node[left] {A}
+  (not1.in) node[left] {B}
+  (not1.out) -- (and1.in 2)
+  (and1.out) node[right] {Y};
+\end{circuitikz}
+
+Complete the truth table for inputs A and B, and output Y.
+
+\end{document}

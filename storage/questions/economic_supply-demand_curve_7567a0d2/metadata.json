@@ -1,0 +1,36 @@
+{
+  "id": "7567a0d2",
+  "name": "Economic Supply-Demand Curve",
+  "created_at": "2025-05-26T02:40:14.709037",
+  "tags": [
+    {
+      "type": "level",
+      "value": "A-Level"
+    },
+    {
+      "type": "topic",
+      "value": "Economics"
+    },
+    {
+      "type": "type",
+      "value": "Short Answer"
+    }
+  ],
+  "points": 7,
+  "hints": [
+    {
+      "text": "Equilibrium is where supply meets demand",
+      "points_deduction": 2
+    },
+    {
+      "text": "A rightward shift decreases price and increases quantity",
+      "points_deduction": 2
+    }
+  ],
+  "answer": "test",
+  "content": "\nAnalyze the supply-demand curves:\n\n\\begin{tikzpicture}\n\\draw[->] (0,0) -- (5,0) node[right] {Quantity};\n\\draw[->] (0,0) -- (0,5) node[above] {Price};\n\\draw[blue] (0,4) -- (4,1) node[right] {D};\n\\draw[red] (0,1) -- (4,4) node[right] {S};\n\\end{tikzpicture}\n\nFind:\na) Equilibrium point\nb) Effect of 1-unit rightward shift of supply curve\n",
+  "files": {
+    "tex": "questions\\economic_supply-demand_curve_7567a0d2\\question.tex",
+    "pdf": "questions\\economic_supply-demand_curve_7567a0d2\\question.pdf"
+  }
+}

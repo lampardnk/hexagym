@@ -1,0 +1,32 @@
+\documentclass[12pt]{article}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{geometry}
+\usepackage{pgfplots}
+\usepackage{color}
+\usepackage{xcolor}
+
+\geometry{a4paper, margin=1in}
+\pgfplotsset{compat=1.18}
+
+\begin{document}
+
+Analyze the inverting amplifier circuit:
+
+\begin{circuitikz}
+\draw
+  (0,0) node[op amp] (opamp) {}
+  (opamp.-) to[R, l=$10\text{k}\Omega$] ++(-2,0) node[left] {$V_{in}$}
+  (opamp.-) to[R, l=$20\text{k}\Omega$] (opamp.out)
+  (opamp.+) -- ++(0,-1) node[ground] {};
+\end{circuitikz}
+
+If $V_{in} = 2V$:
+a) What is the gain of the amplifier?
+b) What is the output voltage $V_{out}$?
+
+\end{document}

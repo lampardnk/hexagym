@@ -1,0 +1,40 @@
+{
+  "id": "35339f69",
+  "name": "Basic RC Circuit Analysis",
+  "created_at": "2025-05-26T02:39:45.000455",
+  "tags": [
+    {
+      "type": "level",
+      "value": "A-Level"
+    },
+    {
+      "type": "topic",
+      "value": "Physics"
+    },
+    {
+      "type": "type",
+      "value": "Short Answer"
+    }
+  ],
+  "points": 8,
+  "hints": [
+    {
+      "text": "For initial current, treat the capacitor as a short circuit initially",
+      "points_deduction": 2
+    },
+    {
+      "text": "Time constant \u03c4 = RC",
+      "points_deduction": 2
+    },
+    {
+      "text": "After one time constant, Vc = 0.63 \u00d7 V_final",
+      "points_deduction": 2
+    }
+  ],
+  "answer": "test",
+  "content": "\nConsider the RC circuit shown below:\n\n\\begin{circuitikz}\n\\draw\n  (0,0) node[ground] {}\n  to[V, l=$12\\text{V}$] (0,3)\n  to[R, l=$2\\text{k}\\Omega$] (3,3)\n  to[C, l=$4\\mu\\text{F}$] (3,0)\n  -- (0,0);\n\\end{circuitikz}\n\nCalculate:\na) The initial current when the circuit is first connected\nb) The time constant of the circuit\nc) The voltage across the capacitor after one time constant\n",
+  "files": {
+    "tex": "questions\\basic_rc_circuit_analysis_35339f69\\question.tex",
+    "pdf": "questions\\basic_rc_circuit_analysis_35339f69\\question.pdf"
+  }
+}

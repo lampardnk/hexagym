@@ -1,0 +1,36 @@
+{
+  "id": "56e3ee00",
+  "name": "Geometric Transformations",
+  "created_at": "2025-05-26T02:40:00.325149",
+  "tags": [
+    {
+      "type": "level",
+      "value": "O-Level"
+    },
+    {
+      "type": "topic",
+      "value": "Math"
+    },
+    {
+      "type": "type",
+      "value": "Short Answer"
+    }
+  ],
+  "points": 6,
+  "hints": [
+    {
+      "text": "Compare the position of corresponding vertices",
+      "points_deduction": 1
+    },
+    {
+      "text": "Check if the shape's size and orientation are preserved",
+      "points_deduction": 2
+    }
+  ],
+  "answer": "test",
+  "content": "\nConsider triangle ABC:\n\n\\begin{tikzpicture}\n\\draw[thick] (0,0) -- (2,0) -- (1,2) -- cycle;\n\\node[below] at (0,0) {A};\n\\node[below] at (2,0) {B};\n\\node[above] at (1,2) {C};\n\\draw[dashed] (3,0) -- (5,0) -- (4,2) -- cycle;\n\\end{tikzpicture}\n\nThe dashed triangle is a transformation of triangle ABC.\nIdentify the transformation and specify its parameters.\n",
+  "files": {
+    "tex": "questions\\geometric_transformations_56e3ee00\\question.tex",
+    "pdf": "questions\\geometric_transformations_56e3ee00\\question.pdf"
+  }
+}

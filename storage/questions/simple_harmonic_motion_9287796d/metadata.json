@@ -1,0 +1,36 @@
+{
+  "id": "9287796d",
+  "name": "Simple Harmonic Motion",
+  "created_at": "2025-05-26T02:40:04.150225",
+  "tags": [
+    {
+      "type": "level",
+      "value": "A-Level"
+    },
+    {
+      "type": "topic",
+      "value": "Physics"
+    },
+    {
+      "type": "type",
+      "value": "Short Answer"
+    }
+  ],
+  "points": 7,
+  "hints": [
+    {
+      "text": "The general equation is y = A sin(\u03c9t)",
+      "points_deduction": 2
+    },
+    {
+      "text": "Angular frequency \u03c9 = 2\u03c0/T",
+      "points_deduction": 2
+    }
+  ],
+  "answer": "test",
+  "content": "\nA mass on a spring oscillates as shown:\n\n\\begin{tikzpicture}\n\\draw[->] (-3,0) -- (3,0) node[right] {x};\n\\draw[->] (0,-2) -- (0,2) node[above] {y};\n\\draw[domain=-2:2,smooth,variable=\\x,blue] plot ({\\x},{1.5*sin(\\x r)});\n\\draw[fill=red] (1,{1.5*sin(1 r)}) circle (0.1);\n\\end{tikzpicture}\n\nGiven amplitude A = 1.5m and period T = 2s:\na) Write the equation of motion y(t)\nb) Calculate the maximum velocity\n",
+  "files": {
+    "tex": "questions\\simple_harmonic_motion_9287796d\\question.tex",
+    "pdf": "questions\\simple_harmonic_motion_9287796d\\question.pdf"
+  }
+}

@@ -1,53 +1,57 @@
-# LaTeX to PDF Web Converter
+# HexaGym
 
-A simple web application that converts LaTeX code to PDF using Python Flask.
+A web application for LaTeX question management and practice.
 
-## Prerequisites
+## Running the Application
 
-- Python 3.x
-- pdflatex (TeXLive or MiKTeX)
-- pip (Python package manager)
+### Local Development
 
-## Installation
+To run the application just for yourself:
 
-1. Clone this repository or download the files
-2. Install the required Python packages:
-   ```
-   pip install -r requirements.txt
-   ```
-3. Ensure pdflatex is installed and available in your system PATH
+```
+python app.py
+```
 
-## Usage
+Then open your browser to http://localhost:5000
 
-1. Start the application:
-   ```
-   python app.py
-   ```
-2. Open your web browser and navigate to `http://localhost:5000`
-3. Enter your LaTeX code in the input box
-4. Click "Compile to PDF" to generate and view the PDF
+### Network Sharing
 
-## Features
+To share the application with others on your network:
 
-- Real-time PDF preview
-- Error handling and status messages
-- Automatic logging of operations in `log.json`
-- Clean and modern user interface
+1. Run the server script:
 
-## File Structure
+```
+python start_server.py
+```
 
-- `app.py` - Flask backend application
-- `static/index.html` - Frontend interface
-- `requirements.txt` - Python dependencies
-- `tex_files/` - Directory for temporary LaTeX files
-- `pdf_files/` - Directory for generated PDFs
-- `log.json` - Operation logs
+2. The script will display your local IP address and the URL to share
 
-## Log Format
+3. Share the displayed URL with others on the same network
 
-The `log.json` file contains entries with the following information:
-- Timestamp of the operation
-- Input tex file path
-- Output PDF file path
-- Success status
-- Error code (if any) 
+4. Others can access the application by entering that URL in their browsers
+
+## Requirements
+
+- Python 3.6+
+- Flask
+- Other dependencies listed in requirements.txt
+
+## Firewall Configuration
+
+If others cannot access your application:
+
+1. Make sure your computer's firewall allows incoming connections on port 5000
+2. For Windows:
+   - Open Windows Defender Firewall
+   - Click "Allow an app or feature through Windows Defender Firewall"
+   - Add Python and allow it on private networks
+3. For macOS:
+   - Open System Preferences > Security & Privacy > Firewall
+   - Click "Firewall Options"
+   - Add Python and allow incoming connections
+
+## Troubleshooting
+
+- If the URL doesn't work for others, try using your computer's hostname instead of IP
+- Make sure you're on the same network (WiFi or LAN)
+- Some networks (especially public ones) may block device-to-device communication 

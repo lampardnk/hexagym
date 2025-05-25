@@ -1,0 +1,36 @@
+{
+  "id": "b44d9af4",
+  "name": "Basic Network Topology",
+  "created_at": "2025-05-26T02:40:10.932665",
+  "tags": [
+    {
+      "type": "level",
+      "value": "IBDP"
+    },
+    {
+      "type": "topic",
+      "value": "Computer Science"
+    },
+    {
+      "type": "type",
+      "value": "Short Answer"
+    }
+  ],
+  "points": 6,
+  "hints": [
+    {
+      "text": "Each node connects to exactly two others",
+      "points_deduction": 1
+    },
+    {
+      "text": "For n nodes, count the number of edges",
+      "points_deduction": 2
+    }
+  ],
+  "answer": "test",
+  "content": "\nAnalyze the network topology:\n\n\\begin{tikzpicture}\n\\draw (0,0) node[circle,draw] (A) {A};\n\\draw (2,0) node[circle,draw] (B) {B};\n\\draw (1,2) node[circle,draw] (C) {C};\n\\draw (A) -- (B) -- (C) -- (A);\n\\end{tikzpicture}\n\na) Identify the topology type\nb) How many connections are needed for n nodes?\nc) What happens if one connection fails?\n",
+  "files": {
+    "tex": "questions\\basic_network_topology_b44d9af4\\question.tex",
+    "pdf": "questions\\basic_network_topology_b44d9af4\\question.pdf"
+  }
+}

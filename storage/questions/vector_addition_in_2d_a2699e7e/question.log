@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.13)  25 MAY 2025 23:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.13)  26 MAY 2025 02:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./storage/20250525_235650/document.tex
-(storage/20250525_235650/document.tex
+**./storage/questions/vector_addition_in_2d_a2699e7e/question.tex
+(storage/questions/vector_addition_in_2d_a2699e7e/question.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -700,9 +700,9 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count309
 \l__pdf_internal_box=\box68
 )
-(C:\Users\nguye\OneDrive\Desktop\hexagym_py\storage\20250525_235650\document.au
-x)
-\openout1 = `document.aux'.
+(C:\Users\nguye\OneDrive\Desktop\hexagym_py\storage\questions\vector_addition_i
+n_2d_a2699e7e\question.aux)
+\openout1 = `question.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
@@ -781,30 +781,42 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
+LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
+
+(C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+
+
+(C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 [1
 
 {C:/Users/nguye/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-(C:\Users\nguye\OneDrive\Desktop\hexagym_py\storage\20250525_235650\document.au
-x)
+(C:\Users\nguye\OneDrive\Desktop\hexagym_py\storage\questions\vector_addition_i
+n_2d_a2699e7e\question.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 41323 strings out of 474486
- 1152779 string characters out of 5743755
- 1925542 words of memory out of 5000000
- 63203 multiletter control sequences out of 15000+600000
- 558367 words of font info for 37 fonts, out of 8000000 for 9000
+ 41386 strings out of 474486
+ 1154136 string characters out of 5743755
+ 1927542 words of memory out of 5000000
+ 63246 multiletter control sequences out of 15000+600000
+ 562714 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,6n,107p,748b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,6n,107p,773b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr12.pfb>
-Output written on C:\Users\nguye\OneDrive\Desktop\hexagym_py\storage\20250525_2
-35650\document.pdf (1 page, 11636 bytes).
+cmmi12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr12.pfb>
+Output written on C:\Users\nguye\OneDrive\Desktop\hexagym_py\storage\questions\
+vector_addition_in_2d_a2699e7e\question.pdf (1 page, 25877 bytes).
 PDF statistics:
- 14 PDF objects out of 1000 (max. 8388607)
+ 19 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
